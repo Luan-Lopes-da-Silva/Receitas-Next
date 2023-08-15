@@ -1,0 +1,22 @@
+.header{
+background-color: red;
+padding: 20px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+height: 200px;
+h1{
+font-size: 3rem;  
+}
+ul{
+  display: flex;
+  gap: 16px;
+  li{
+    color: #FFF;
+    &:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    }
+  }
+}
+}
