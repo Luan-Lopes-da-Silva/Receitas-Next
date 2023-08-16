@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import style from './header.module.scss'
 
 export default function Header(){
@@ -6,10 +7,10 @@ return(
   <h1>Cooking</h1>
   <nav>
     <ul>
-      <li>Home</li>
-      <li>Sobremesas</li>
-      <li>Carnes</li>
-      <li>Encomendas</li>
+    <Link href={'/'}>Home</Link>
+    <Link href={'/desserts'}>Sobremesas</Link>
+    <Link href={'/meat'}>Carnes</Link>
+    <Link href={'/orders'}>Encomendas</Link>
     </ul>
   </nav>
 </header>

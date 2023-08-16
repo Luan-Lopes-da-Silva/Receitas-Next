@@ -32,49 +32,49 @@ import img29 from '@/src/assets/japanese/richard-iwaki-2cpx1N7Us5Q-unsplash.jpg'
 import img30 from '@/src/assets/japanese/stefen-tan-_sfMD-OhFR8-unsplash (1).jpg'
 
 export const items = [
-  {name:'Item 1' , id:1, img:img1},
-  {name:'Item 2' , id:2, img:img2},
-  {name:'Item 3' , id:3, img:img3},
-  {name:'Item 4' , id:4, img:img4},
-  {name:'Item 5' , id:5, img:img5},
-  {name:'Item 6' , id:6, img:img6},
-  {name:'Item 7' , id:7, img:img7},
-  {name:'Item 8' , id:8, img:img8},
-  {name:'Item 9' , id:9, img:img9},
-  {name:'Item 10' , id:10, img:img10}
+  {name:'Petit Gateau' , id:1, img:img1},
+  {name:'Tiramisù' , id:2, img:img2},
+  {name:'Crème Brûlée' , id:3, img:img3},
+  {name:'Cheesecake' , id:4, img:img4},
+  {name:'Mousse de Chocolate' , id:5, img:img5},
+  {name:'Pudim' , id:6, img:img6},
+  {name:'Sorvete com Calda' , id:7, img:img7},
+  {name:'Torta de Maçã' , id:8, img:img8},
+  {name:'Profiteroles' , id:9, img:img9},
+  {name:'Fondue de Chocolate' , id:10, img:img10}
 ]
 
 export const items2 = [
-  {name:'Item 11' , id:11, img:img11},
-  {name:'Item 12' , id:12, img:img12},
-  {name:'Item 13' , id:13, img:img13},
-  {name:'Item 14' , id:14, img:img14},
-  {name:'Item 15' , id:15, img:img15},
-  {name:'Item 16' , id:16, img:img16},
-  {name:'Item 17' , id:17, img:img17},
-  {name:'Item 18' , id:18, img:img18},
-  {name:'Item 19' , id:19, img:img19},
-  {name:'Item 20' , id:20, img:img20}
+  {name:'Strogonoff de Carne' , id:11, img:img11},
+  {name:'Bife à Parmegiana' , id:12, img:img12},
+  {name:'Churrasco' , id:13, img:img13},
+  {name:'Feijoada' , id:14, img:img14},
+  {name:'Carne de Panela' , id:15, img:img15},
+  {name:'Hambúrguer' , id:16, img:img16},
+  {name:'Espetinho de Carne' , id:17, img:img17},
+  {name:'Costelas Assadas' , id:18, img:img18},
+  {name:'Lombo Assado' , id:19, img:img19},
+  {name:'Cozido de Carne' , id:20, img:img20}
 ]
 
 export const items3 = [
-  {name:'Item 21' , id:21, img:img21},
-  {name:'Item 22' , id:22, img:img22},
-  {name:'Item 23' , id:23, img:img23},
-  {name:'Item 24' , id:24, img:img24},
-  {name:'Item 25' , id:25, img:img25},
-  {name:'Item 26' , id:26, img:img26},
-  {name:'Item 27' , id:27, img:img27},
-  {name:'Item 28' , id:28, img:img28},
-  {name:'Item 29' , id:29, img:img29},
-  {name:'Item 30' , id:30, img:img30}
+  {name:'Sushi' , id:21, img:img21},
+  {name:'Sashimi' , id:22, img:img22},
+  {name:'Tempurá' , id:23, img:img23},
+  {name:'Yakitori' , id:24, img:img24},
+  {name:'Ramen' , id:25, img:img25},
+  {name:'Udon' , id:26, img:img26},
+  {name:'Okonomiyaki' , id:27, img:img27},
+  {name:'Tonkatsu' , id:28, img:img28},
+  {name:'Gyoza' , id:29, img:img29},
+  {name:'Teriyaki' , id:30, img:img30}
 ]
 
 export const orders = [
-  {name:'Item 21' , id:21, img:img21},
-  {name:'Item 22' , id:22, img:img22},
-  {name:'Item 11' , id:11, img:img11},
-  {name:'Item 12' , id:12, img:img12},
-  {name:'Item 9' , id:9, img:img9},
-  {name:'Item 10' , id:10, img:img10}
+  {name:'Sushi' , id:21, img:img21},
+  {name:'Sashimi' , id:22, img:img22},
+  {name:'Strogonoff de Carne' , id:11, img:img11},
+  {name:'Bife à Parmegiana' , id:12, img:img12},
+  {name:'Profiteroles' , id:9, img:img9},
+  {name:'Fondue de Chocolate' , id:10, img:img10}
 ]

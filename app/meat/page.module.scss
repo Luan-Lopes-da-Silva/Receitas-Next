@@ -1,0 +1,29 @@
+.main{
+background-color: #23D1B2;
+padding: 60px;
+.cardContainer{
+display: flex;
+flex-wrap: wrap; 
+gap: 42px;
+justify-content: center;
+.card{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  margin: 20px 0px;
+  p{
+  color: #023F6A; 
+  font-size: 1.5rem; 
+  }
+  .img{
+  border-radius: 20px;
+  object-fit: cover;  
+  &:hover{
+  cursor: pointer;
+  border: 4px solid black;  
+  }
+  }
+} 
+}  
+}

@@ -1,6 +1,7 @@
 import { items,items2,items3,orders} from "@/db"
 import Image from "next/image"
 import style from './page.module.scss'
+import Rating from "@/src/components/Rating"
 
 export const metadata = {
  title: 'Home' 
@@ -9,19 +10,21 @@ export const metadata = {
 export default function Home() {
   return (
    <>
-   <main style={{backgroundColor:'white'}}>
+   <main className={style.main}>
     <section>
     <h2>Sobremesas</h2>
     <div className={style.cardContainer}>
     {items.map((item)=>(
     <div key={item.id} className={style.card}>
-    <h3>{item.name}</h3>
+    <p>{item.name}</p>
     <Image
     src={item.img}
     alt='Img'
     height={300}
     width={300}
+    className={style.img}
     />
+    <Rating/>
     </div>
     ))}
     </div>
@@ -31,12 +34,13 @@ export default function Home() {
     <div className={style.cardContainer}>
     {items2.map((item)=>(
     <div key={item.id} className={style.card}>
-    <h3>{item.name}</h3>
+    <p>{item.name}</p>
     <Image
     src={item.img}
     alt='Img'
     height={300}
     width={300}
+    className={style.img}
     />
     </div>  
     ))}
@@ -47,12 +51,13 @@ export default function Home() {
     <div className={style.cardContainer}>
     {items3.map((item)=>(
     <div key={item.id} className={style.card}>
-    <h3>{item.name}</h3>
+    <p>{item.name}</p>
     <Image
     src={item.img}
     alt='Img'
     height={300}
     width={300}
+    className={style.img}
     />
     </div>  
     ))}
@@ -63,12 +68,13 @@ export default function Home() {
     <div className={style.cardContainer}>
     {orders.map((item)=>(
     <div key={item.id} className={style.card}>
-    <h3>{item.name}</h3>
+    <p>{item.name}</p>
     <Image
     src={item.img}
     alt='Img'
     height={300}
     width={300}
+    className={style.img}
     />
     </div>  
     ))}
